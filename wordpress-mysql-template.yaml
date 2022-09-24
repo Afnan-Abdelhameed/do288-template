@@ -3,7 +3,6 @@
 kind: Template
 apiVersion: v1
 metadata:
-  name: wordpress-mysql
   annotations:
     openshift.io/display-name: WordPress + MySQL
     description: >
@@ -11,8 +10,7 @@ metadata:
       for WordPress uploads, WordPress plugins, and MySQL data.
     tags: instant-app,php,wordpress
     iconClass: icon-php
-labels:
-  template: wordpress-mysql
+
 
 
 parameters:
